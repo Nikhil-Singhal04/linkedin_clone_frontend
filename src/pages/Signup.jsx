@@ -38,7 +38,7 @@ const Signup = () => {
       setLoading(true);
       setError(null)
 
-      const res = await axios.post("http://localhost:4000/api/register", 
+      const res = await axios.post("https://linkedin-clone-backend-beta.vercel.app/api/register", 
         // state variables(req.body)
         {
           username, email, password
